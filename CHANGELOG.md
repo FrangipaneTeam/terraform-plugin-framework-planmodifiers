@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.0.0...v1.1.0) (2023-03-09)
+
+
+### Features
+
+* add `RequireReplaceIfBool` for string/int64/bool plan modifiers ([ae9c09d](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/ae9c09dc7ad542110d7a8f1c34033ed246283f05))
+
 ## 1.0.0 (2023-03-09)
 
 
