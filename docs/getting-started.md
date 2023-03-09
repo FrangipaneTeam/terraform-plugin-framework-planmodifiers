@@ -1,6 +1,4 @@
-# terraform-plugin-framework-planmodifiers
-
-This repository contains the plan modifiers for the Terraform Plugin Framework.
+# Getting Started
 
 ## Installation
 

@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release_please:
+    name: Release Please
+    runs-on: ubuntu-22.04
+    if: github.repository == 'FrangipaneTeam/terraform-plugin-framework-planmodifiers'
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: simple
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false},{"type":"deps","section":"Dependencies","hidden":false},{"type":"docs","section":"Documentation","hidden":false}]'

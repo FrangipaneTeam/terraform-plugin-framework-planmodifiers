@@ -1,0 +1,14 @@
+{
+    "gopls": {
+        "ui.semanticTokens": true,
+        "formatting.local": "github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers",
+    },
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast",
+        "--fix"
+    ],
+    "go.lintOnSave": "package",
+    "markdownlint.run": "onType",
+    "markdown.validate.enabled": true
+}

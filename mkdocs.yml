@@ -1,0 +1,43 @@
+site_name: Terrafom Framework Plan Modifiers
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github-alt
+
+nav:
+  - Overview: "index.md"
+  - Getting Started: "getting-started.md"
+  - Plan Modifiers:
+      - String: "stringplanmodifier/index.md"
+      - Bool: "boolplanmodifier/index.md"
+      - Int64: "int64planmodifier/index.md"
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+repo_url: https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers
+repo_name: FrangipaneTeam/terraform-plugin-framework-planmodifiers
