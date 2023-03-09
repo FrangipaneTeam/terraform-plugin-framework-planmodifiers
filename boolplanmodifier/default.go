@@ -7,8 +7,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 )
 
-// SetDefault returns a plan modifier that conditionally requires
-// resource replacement if:
+// SetDefault
+//
+// SetDefault returns a plan modifier that sets the plan value to the
+// provided value if the following conditions are met:
 //
 //   - The resource is planned for update.
 //   - The plan and state values are not equal.
