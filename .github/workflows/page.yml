@@ -2,9 +2,9 @@
 name: github page
 
 on:
-  release:
-    types: # This configuration does not affect the page_build event above
-      - published
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   page:
