@@ -5,10 +5,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/stringplanmodifier"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+
+	"github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/stringplanmodifier"
 )
 
 func TestDefaultEnvVarModifierPlanModifyString(t *testing.T) {
