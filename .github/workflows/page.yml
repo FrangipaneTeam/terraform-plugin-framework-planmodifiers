@@ -3,9 +3,9 @@ name: github page
 
 on:
   push:
-    tags:
-      - 'v*'
-
+    branches:
+      - main
+      
 jobs:
   page:
     runs-on: ubuntu-latest
