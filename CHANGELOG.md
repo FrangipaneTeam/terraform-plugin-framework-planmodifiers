@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.1.0...v1.1.1) (2023-03-09)
+
+
+### Bug Fixes
+
+* ci trigger github page ([7731405](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/77314051f770e1f9686e55b8ca244668693c473b))
+
 ## [1.1.0](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.0.0...v1.1.0) (2023-03-09)
 
 
