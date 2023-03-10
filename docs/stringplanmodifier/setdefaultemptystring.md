@@ -2,7 +2,7 @@
 
 This plan modifier is used to set a default empty value for a string.
 
-## Who to use
+## How to use it
 
 ```go
 // Schema defines the schema for the resource.

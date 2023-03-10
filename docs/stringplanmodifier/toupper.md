@@ -2,7 +2,7 @@
 
 This plan modifier is used to force the string to be uppercase.
 
-## Who to use
+## How to use it
 
 ```go
 // Schema defines the schema for the resource.
