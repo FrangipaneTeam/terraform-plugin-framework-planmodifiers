@@ -2,7 +2,7 @@
 
 This plan modifier is used to require a resource to be replaced if a boolean attribute is set to a expected value.
 
-## Who to use
+## How to use it
 
 ```go
 // Schema defines the schema for the resource.

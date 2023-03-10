@@ -3,7 +3,7 @@
 String plan modifiers are used to modify the plan of a string attribute.
 I will be used into the `PlanModifiers` field of the `schema.StringAttribute` struct.
 
-## Who to use
+## How to use it
 
 ```go
 import (

@@ -2,7 +2,7 @@
 
 This plan modifier is used to set a default value for a string from an environment variable.
 
-## Who to use
+## How to use it
 
 ```sh
 export CAV_VAR_DEFAULT_NAME="default-name"

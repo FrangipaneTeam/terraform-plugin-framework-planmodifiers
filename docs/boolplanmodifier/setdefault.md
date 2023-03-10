@@ -2,7 +2,7 @@
 
 This plan modifier is used to set a default value for a boolean attribute.
 
-## Who to use
+## How to use it
 
 ```go
 // Schema defines the schema for the resource.
