@@ -23,3 +23,7 @@ import (
 ### RequireReplace
 
 - [`RequireReplaceIfBool`](requirereplaceifbool.md) - Forces the resource to be replaced when the specified boolean attribute is changed.
+
+### StringChange
+
+- [`ToLower`](tolower.md) - Converts the string to lowercase.
