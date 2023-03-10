@@ -27,3 +27,4 @@ import (
 ### StringChange
 
 - [`ToLower`](tolower.md) - Converts the string to lowercase.
+- [`ToUpper`](toupper.md) - Converts the string to uppercase.
