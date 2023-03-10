@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.0](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.1.1...v1.2.0) (2023-03-10)
+
+
+### Features
+
+* add `ToLower` string changer ([f51594c](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/f51594c372a7101505bf14c74467eaae877f9b6d))
+* add `ToUpper` string changer ([d31513b](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/d31513b0877ba7b3fdc4cdd2616ebd56889cd605))
+
+
+### Bug Fixes
+
+* ci trigger github page ([fbfcc7b](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/fbfcc7b5b97094c72daf61336a2e8bad709cecce))
+
+
+### Miscellaneous
+
+* update README ([7408d42](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/7408d42fba7eceb314fb2af76d2742396fd699e2))
+
 ## [1.1.1](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.1.0...v1.1.1) (2023-03-09)
 
 
