@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.1](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.0...v1.2.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* Fix documentation ([9b15b0d](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/9b15b0d081fc4273298467b7484ee0c342b43146))
+* fix types in ToUpper and ToLower Func ([75d8a45](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/75d8a45823b7384e397a000bf027e73a5997d884))
+* syntax in doc ([08cb4fe](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/08cb4fe793bfcdae344d3fb01200b96c8a23e853))
+
 ## [1.2.0](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.1.1...v1.2.0) (2023-03-10)
 
 
