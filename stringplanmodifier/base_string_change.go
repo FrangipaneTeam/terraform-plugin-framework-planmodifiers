@@ -19,7 +19,7 @@ type StringChangeFuncResponse struct {
 	Diagnostics diag.Diagnostics
 
 	// Value is the value to use by default if the attribute is not configured.
-	Value string
+	Value types.String
 }
 
 // setStringChangeFunc
@@ -62,5 +62,5 @@ func (m stringChangeFuncPlanModifier) PlanModifyString(ctx context.Context, req 
 	m.f(ctx, req, funcResp)
 
 	resp.Diagnostics.Append(funcResp.Diagnostics...)
-	resp.PlanValue = types.StringValue(funcResp.Value)
+	resp.PlanValue = funcResp.Value
 }
