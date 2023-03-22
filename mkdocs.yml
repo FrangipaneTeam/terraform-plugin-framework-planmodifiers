@@ -3,20 +3,20 @@ site_name: Terraform Framework Plan Modifiers
 theme:
   name: material
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    - scheme: orangeCorp
+
   features:
     - navigation.sections
     - navigation.top
     - content.code.annotate
+    - header.autohide
   icon:
     repo: fontawesome/brands/github-alt
+  favicon: images/favicon.png
+  logo: images/logo.png
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Overview: "index.md"
@@ -25,6 +25,11 @@ nav:
       - String: "stringplanmodifier/index.md"
       - Bool: "boolplanmodifier/index.md"
       - Int64: "int64planmodifier/index.md"
+  - FrangipaneTeam:
+      - About: "https://team.frangipane.io/"
+      - GitHub: "https://github.com/FrangipaneTeam"
+  - Other projects:
+      - Validators: "https://team.frangipane.io/terraform-plugin-framework-validators/"
 
 plugins:
   - search
