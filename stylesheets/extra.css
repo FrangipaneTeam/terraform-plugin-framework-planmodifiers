@@ -1,0 +1,25 @@
+[data-md-color-scheme="orangeCorp"] {
+    --md-primary-fg-color: #000;
+    --md-primary-fg-color--light: rgb(255, 121, 0);
+    --md-primary-fg-color--dark: rgb(255, 121, 0);
+
+    --md-primary-bg-color: #fff;
+    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+    --md-typeset-a-color: var(--md-primary-fg-color--light);
+
+    --md-accent-fg-color: rgb(255, 121, 0);
+    --md-accent-fg-color--transparent: hsla(#{hex2hsl($clr-orange-500)}, 0.5);
+    --md-accent-bg-color: rgb(255, 121, 0);
+    --md-accent-bg-color--light: hsla(#{hex2hsl($clr-orange-500)}, 0.5);
+}
+
+.md-header__button.md-logo {
+    margin: 0.1rem;
+    padding: 0.2rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2rem;
+}
