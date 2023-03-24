@@ -19,17 +19,10 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Overview: "index.md"
-  - Getting Started: "getting-started.md"
-  - Plan Modifiers:
-      - String: "stringplanmodifier/index.md"
-      - Bool: "boolplanmodifier/index.md"
-      - Int64: "int64planmodifier/index.md"
-  - FrangipaneTeam:
-      - About: "https://team.frangipane.io/"
-      - GitHub: "https://github.com/FrangipaneTeam"
-  - Other projects:
-      - Validators: "https://team.frangipane.io/terraform-plugin-framework-validators/"
+  - How to use: "getting-started.md"
+  - String: "stringplanmodifier/index.md"
+  - Bool: "boolplanmodifier/index.md"
+  - Int64: "int64planmodifier/index.md"
 
 plugins:
   - search
