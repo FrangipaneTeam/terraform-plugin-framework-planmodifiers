@@ -1,4 +1,4 @@
-# StringPlanModifiers
+# String Plan Modifiers
 
 String plan modifiers are used to modify the plan of a string attribute.
 It will be used into the `PlanModifiers` field of the `schema.StringAttribute` struct.

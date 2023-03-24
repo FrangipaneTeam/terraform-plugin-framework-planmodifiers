@@ -1,4 +1,4 @@
-# StringPlanModifiers
+# Bool Plan Modifiers
 
 Bool plan modifiers are used to modify the plan of a bool attribute.
 I will be used into the `PlanModifiers` field of the `schema.BoolAttribute` struct.
