@@ -1,18 +1,23 @@
-# ---
-# name: github page
+---
+name: github page
 
-# on:
-#   push:
-#     branches:
-#       - main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
       
-# jobs:
-#   page:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#       - uses: actions/setup-python@v3
-#         with:
-#           python-version: 3.x
-#       - run: pip install mkdocs-material
-#       - run: mkdocs gh-deploy --force
+jobs:
+  page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Frangipane Docs
+        run: |
+          curl -L \
+          -X POST https://api.github.com/repos/FrangipaneTeam/frangipane-docs/dispatches \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.DOC_PAT }}" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          -d '{"event_type": "update-doc", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
