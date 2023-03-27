@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/dchest/uniuri v1.2.0
 	github.com/google/go-cmp v0.5.9
-	github.com/hashicorp/terraform-plugin-framework v1.1.1
+	github.com/hashicorp/terraform-plugin-framework v1.2.0
 	github.com/hashicorp/terraform-plugin-go v0.14.3
 )
 
