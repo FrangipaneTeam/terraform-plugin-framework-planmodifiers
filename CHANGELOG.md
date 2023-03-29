@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.2](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.1...v1.2.2) (2023-03-29)
+
+
+### Documentation
+
+* merge doc to one projet ([5913ccc](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/5913ccc947cd7982f6d4b3dbbc8c842bd2d7f51c))
+
+
+### Miscellaneous
+
+* **deps:** bump github.com/hashicorp/terraform-plugin-framework ([380e499](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/380e49938e47200ac1d13f5626833b249963d70f))
+* **deps:** bump github.com/hashicorp/terraform-plugin-go ([f9cee65](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/f9cee65dac07040984683c51f8c2ec6983619731))
+* **docs:** add favicon && branding orange ([495273d](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/495273d6fa36cb2025dcc60b016b09c6b9f1ed09))
+
 ## [1.2.1](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.0...v1.2.1) (2023-03-20)
 
 
