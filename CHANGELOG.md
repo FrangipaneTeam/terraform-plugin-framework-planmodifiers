@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.2...v1.2.3) (2023-03-31)
+
+
+### Miscellaneous
+
+* CODE_OF_CONDUCT ([505baa5](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/505baa54e9cda726cf409d31fc6444c996c630fe))
+* LICENCE ([f5612de](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/f5612dea20d4c12e6ce632103fdeb388a0a86928))
+
 ## [1.2.2](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.1...v1.2.2) (2023-03-29)
 
 
