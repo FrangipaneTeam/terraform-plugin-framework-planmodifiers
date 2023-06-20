@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.3.0...v1.3.1) (2023-06-20)
+
+
+### Miscellaneous
+
+* **deps:** bump github.com/hashicorp/terraform-plugin-framework ([#32](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/issues/32)) ([35e15ba](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/35e15ba3792442592ae5ad53a8709aa1d98b9755))
+* **deps:** bump github.com/hashicorp/terraform-plugin-go ([#31](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/issues/31)) ([70a3770](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/commit/70a3770de13256f88f56f22394300c572a725d5f))
+
 ## [1.3.0](https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers/compare/v1.2.3...v1.3.0) (2023-06-19)
 
 
