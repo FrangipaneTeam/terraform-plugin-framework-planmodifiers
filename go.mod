@@ -6,7 +6,7 @@ require (
 	github.com/dchest/uniuri v1.2.0
 	github.com/google/go-cmp v0.5.9
 	github.com/hashicorp/terraform-plugin-framework v1.3.1
-	github.com/hashicorp/terraform-plugin-go v0.15.0
+	github.com/hashicorp/terraform-plugin-go v0.16.0
 )
 
 require (
@@ -19,5 +19,5 @@ require (
 	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/sys v0.9.0 // indirect
 )
