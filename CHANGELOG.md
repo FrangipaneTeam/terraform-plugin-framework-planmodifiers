@@ -1,5 +1,11 @@
 ## 1.4.0 (Unreleased)
 
+### :dependabot: **Dependencies**
+
+* deps: bump github.com/hashicorp/terraform-plugin-framework from 1.2.0 to 1.3.0 ([GH-30](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/30))
+* deps: bump github.com/hashicorp/terraform-plugin-framework from 1.3.0 to 1.3.1 ([GH-32](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/32))
+* deps: bump github.com/hashicorp/terraform-plugin-go from 0.15.0 to 0.16.0 ([GH-31](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/31))
+
 ## 1.3.0 (2023-06-19)
 
 ### Features
