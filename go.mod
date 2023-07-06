@@ -6,7 +6,7 @@ require (
 	github.com/dchest/uniuri v1.2.0
 	github.com/google/go-cmp v0.5.9
 	github.com/hashicorp/terraform-plugin-framework v1.3.1
-	github.com/hashicorp/terraform-plugin-go v0.16.0
+	github.com/hashicorp/terraform-plugin-go v0.18.0
 )
 
 require (
