@@ -2,6 +2,8 @@
 
 ### :dependabot: **Dependencies**
 
+* deps: bumps actions/setup-go from 3.5.0 to 4.0.1 ([GH-40](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/40))
+* deps: bumps dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([GH-39](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/39))
 * deps: bumps github.com/hashicorp/terraform-plugin-framework from 1.3.1 to 1.3.2 ([GH-35](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/35))
 * deps: bumps github.com/hashicorp/terraform-plugin-go from 0.16.0 to 0.18.0 ([GH-36](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/36))
 
