@@ -2,6 +2,7 @@
 
 ### :dependabot: **Dependencies**
 
+* deps: bumps actions/setup-go from 4.0.1 to 4.1.0 ([GH-43](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/43))
 * deps: bumps github.com/hashicorp/terraform-plugin-framework from 1.3.2 to 1.3.3 ([GH-41](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/41))
 * deps: bumps golangci/golangci-lint-action from 3.6.0 to 3.7.0 ([GH-44](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/44))
 * deps: bumps ncipollo/release-action from 1.12.0 to 1.13.0 ([GH-45](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/45))
