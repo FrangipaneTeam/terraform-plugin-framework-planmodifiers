@@ -1,4 +1,9 @@
 ## 1.4.0 (Unreleased)
+
+### :dependabot: **Dependencies**
+
+* deps: bumps github.com/google/go-cmp from 0.5.9 to 0.6.0 ([GH-52](https://github.com/orange-cloudavenue/terraform-provider-cloudavenue/issues/52))
+
 ## 1.3.4 (October 12, 2023)
 
 ### :dependabot: **Dependencies**
