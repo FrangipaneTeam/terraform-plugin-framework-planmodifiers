@@ -2,6 +2,7 @@
 
 ### :dependabot: **Dependencies**
 
+* deps: bumps actions/checkout from 4.1.0 to 4.1.1 (GH-53)
 * deps: bumps github.com/google/go-cmp from 0.5.9 to 0.6.0 (GH-52)
 * deps: bumps github.com/hashicorp/terraform-plugin-go from 0.19.0 to 0.19.1 (GH-56)
 
